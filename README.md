@@ -1,6 +1,8 @@
 # Ebb and Flow
 This project contains the code for my project Ebb and Flow. Ebb & Flow is a wearable device designed to monitor and manage anxiety by providing real-time feedback on physiological signals such as heart rate, skin temperature, and galvanic skin response (GSR). This project leverages IoT technologies and machine learning to empower users with insights into their emotional states and tools to improve mental well-being.
 
+Youtube Video Demo: https://youtu.be/e0VjgX1bkUU
+
 **Acknowledgments**
 This project was developed as part of the DESE71003 – Sensing and Internet of Things course at Imperial College London. Special thanks to Professor David Boyle for providing well-documented datasets that enabled the machine learning pipeline.
 
@@ -10,7 +12,7 @@ Stress and anxiety can hinder creativity and productivity. The Ebb & Flow device
 **Features**
 Physiological Signal Monitoring: Measures heart rate, skin temperature, and GSR in real time.
 Machine Learning Prediction: Utilizes a Random Forest Classifier to predict anxiety with an accuracy of 97.85%.
-Live Data Visualization: Displays real-time predictions on a user-friendly Streamlit dashboard.
+Live Data Visualization: Displays real-time predictions on a user-friendly   dashboard.
 Local Data Storage: Ensures data privacy by storing all information locally and clearing the database after the session ends.
 
 **System Architecture**
