@@ -25,17 +25,10 @@
 // Define GSR pin
 #define GSR_PIN A0 // Analog pin for GSR sensor
 
-const char* ssid = "CommunityFibre10Gb_98A69";        // Replace with your WiFi SSID
-const char* password = "u6e6pdbus2"; // Replace with your WiFi Password
+const char* ssid = "";        // Replace with your WiFi SSID
+const char* password = ""; // Replace with your WiFi Password
 
-//const char* ssid = "Alexis Almeida's Iphone 13";        // Replace with your WiFi SSID
-//const char* password = "suki1234"; // Replace with your WiFi Password//
-
-const char* serverName = "http://192.168.1.232:5002/receive_data"; 
-//const char* serverName = "http://192.168.1.232:5002/send_data"; //streamlit
-
-
-
+const char* serverName = "<flask application url>/receive_data"; 
 
 MAX30105 particleSensor;
 
