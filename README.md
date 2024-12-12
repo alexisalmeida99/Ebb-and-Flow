@@ -21,7 +21,7 @@ The project follows an end-to-end pipeline:
 1. Sensors: The device uses the MAX30102 sensor (for heart rate and temperature) and the Grove GSR sensor to collect physiological data. 
 2. Arduino Nano ESP32: Processes raw data and sends it to a local Flask server.
 3. Flask Server: Preprocesses the data and runs it through the machine learning pipeline.
-4. Streamlit Dashboard: Visualizes predictions and provides real-time feedback to the user.
+4. Streamlit Dashboard: Displays predictions and provides real-time feedback to the user.
 
 **Installation and Setup**
 
