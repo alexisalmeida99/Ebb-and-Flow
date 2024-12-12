@@ -138,7 +138,7 @@ void send_packet(String jsonPayload){
     }
 }
 unsigned long lastSend = 0;
-const unsigned long interval = 10;
+const unsigned long interval = 10; // change rate at which packet sends here
 
 void loop() {
           long irValue = particleSensor.getIR();
